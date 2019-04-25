@@ -1,0 +1,206 @@
+body
+{
+    background-color:white;
+    color:black;
+    font-family:century gothic;
+    font-size:20px;
+    overflow: hidden;
+}
+a
+{
+    text-decoration: none;
+}
+.headertab
+{
+    background-color:darkslategrey;
+    color:white;
+    height:100px;
+    width:100%;
+    font-family: century gothic;
+    transform:translate(0px,0px);
+    position: -webkit-sticky;
+    position: sticky;
+    position: absolute;
+}
+
+.header
+{
+    font-family:league gothic;
+    font-size:30px;
+    color:white;
+    transform: translate(520px,15px);
+    position: absolute; 
+}
+
+.smallheader
+{
+    font-family:agency fb;
+    font-size:25px;
+    color:white;
+    transform: translate(680px,55px);  
+    position: absolute;
+}
+
+.logo
+{
+    width:70px;
+    height: :70px;
+    border-radius: 50%;
+    transform:translate(20px,15px);
+    position: absolute;
+}
+
+.tab
+{
+    background-color:whitesmoke;
+    height:650px;
+    width:20%;
+    float:left;
+      position: -webkit-sticky;
+  position: sticky;
+    position: absolute;
+    transform: translate(0px,100px);
+}
+
+.avatar
+{
+    width:200px;
+    height: :200px;
+    border-radius: 50%;
+    transform:translate(45px,95px);
+    opacity:0.9;  
+    position: absolute;
+}
+
+.tabtext
+{
+    font-family:Agency fb;
+    font-size:27px;
+    padding:20px 10px;
+    color:black;
+    opacity:1;
+    line-height: 40px;
+    position: absolute;
+}
+
+.intab
+{
+    background-color:lightgray;
+    opacity: 0.5;
+    width:100%;
+    height:200px;
+    transform: translate(0px,320px);
+    position: absolute;
+}
+
+.student
+{
+    background-color:lightgray;
+    font-size:27px;
+    font-family:league gothic;
+    opacity: 0.5;
+    width:100%;
+    height:50px;
+    transform: translate(0px,0px);
+    text-align: center;
+    padding-top: 15px;
+    border-right: 3px solid black;
+    position: absolute;
+}
+
+.dashboard
+{
+    width: 80%;
+    height: 50px;
+    transform: translate(305px,100px);
+    background-color: lightsteelblue;
+    opacity: 0.5;
+    text-align: center;
+    padding-top: 15px;
+    font-family:league gothic;
+    font-size: 27px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+
+}
+
+.dash
+{
+    transform: translate(20px,3px);
+    font-family: league gothic;
+    font-size: 27px;
+    color: black;
+    width:70px;
+    float:left;
+    position: absolute;
+}
+
+.home
+{
+    transform: translate(1020px,3px);
+    font-size: 20px;
+    width:60px;
+    float:left;
+    position: absolute;
+    text-decoration: none;
+}
+
+.off
+{
+    transform:translate(1100px,3px);
+    font-size: 20px;
+    width:80px;
+    float:left;
+    position: absolute;
+}
+
+.dashboard .home:hover
+{
+    color:forestgreen;
+    cursor: pointer;
+}
+
+.dashboard .off:hover
+{
+    color:brown;
+    cursor: pointer;
+}
+
+table 
+{
+width:60%;
+        transform: translate(10px,30px);
+	}
+	table,th,td{
+		border: 1px solid black;
+		border-collapse: collapse;
+
+	}
+	th, td {
+		padding: 15px;
+		text-align: left;
+	}
+	table#t01 tr:nth-child(even){
+		background-color: #eee;
+	}
+	table#t01 tr:nth-child(odd) {
+		background-color: #fff;
+	}
+	table#t01 th {
+		background-color: black;
+		color: white;
+	}
+
+.clrtab
+{
+    transform: translate(350px,250px);
+}
+
+.clearhead
+{
+    font-family:league gothic;
+    font-size:35px;
+    color:darkslategray;
+    transform: translate(350px,190px);
+    position: absolute;
+}
